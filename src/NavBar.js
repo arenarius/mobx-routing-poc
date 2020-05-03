@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavBar = (props) => {
   return (
@@ -13,6 +13,9 @@ const NavBar = (props) => {
         </li>
         <li>
           <Link to="/users">Users</Link>
+        </li>
+        <li>
+          <Link to="/users/123">Users with id</Link>
         </li>
       </ul>
     </nav>
